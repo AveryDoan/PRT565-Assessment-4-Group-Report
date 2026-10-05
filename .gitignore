@@ -1,1 +1,22 @@
+# Data: 124 MB, over GitHub's 100 MB file limit. See DATA.md for how to get it.
 sensor.csv
+data/
+
+# Figures the notebook writes into the working directory (curated copies live in figures/)
+/fig_slide*.png
+
+# Jupyter and Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Office lock files
+~$*
